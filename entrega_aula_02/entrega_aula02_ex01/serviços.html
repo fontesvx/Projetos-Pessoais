@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzeiro do Norte</title>
+    <style>
+        *{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: rgba(128, 128, 128, 0.384);
+        }
+        header{
+            background-color: rgb(28, 26, 151);
+            border-radius: 0px 0px 8px 8px;
+            box-shadow: 1px 2px 5px black; 
+        }
+        header > h1{
+            text-align: center;
+            color: aliceblue;
+            text-shadow: 1px 2px 10px black;
+            padding: 30px 0px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+        nav a{
+            color: aliceblue;
+            font-weight: bold;
+            text-decoration: none;
+        }     
+        a:hover{
+            cursor: pointer;;
+            text-decoration: underline;
+        }
+        ul{
+          display: flex; 
+          list-style: none; 
+          gap: 20px; justify-content: 
+          center; padding: 0;
+          margin-top: 10px;
+          padding-left: 20px;
+        }
+        main{
+            padding: 25px;
+        }
+        section{
+          margin: 0px 0px 30px;
+        }
+        h2{
+          color: #00458a;
+        }
+        p, li{
+          font-size: 15px;
+          margin: 10px 0px;
+        }
+        figure{
+            margin-top: 10px;
+            text-align: center;
+        }
+        figure img {
+          width: 400px;
+          height: auto;
+          border-radius: 8px;
+          display: block;
+          margin: auto;
+          
+        }
+        figcaption {
+          margin-top: 5px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: italic;
+        }
+        footer{
+            background-color: rgb(16, 15, 94);
+            border-radius: 8px 8px 0px 0px;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: aliceblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nossos Serviços</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit tempora cumque esse ea ab placeat error iste aperiam, facilis consequatur. Temporibus dolore odit assumenda repellat hic fuga eaque amet architecto ea delectus, necessitatibus tenetur quas molestiae esse pariatur numquam labore!</p>
+            <figure>
+                <img src="imagens/img1.jpeg" alt="">
+                <figcaption>Web Design</figcaption>
+            </figure>
+        </section>
+        <section>
+            <figure>
+                <img src="imagens/img2.jpeg" alt="">
+                <figcaption>Desenvolvimento Web</figcaption>
+            </figure>   
+        </section>
+        <section>
+            <figure>
+                <img src="imagens/img3.jpeg" alt="">
+            <figcaption>Marketing Digital</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>2056 Meu Novo Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
